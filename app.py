@@ -94,6 +94,8 @@ if __name__ == '__main__':
 #     if df.isnull().values.any():
 #         df = df.dropna()
 
+# x = 0
+
 #     # Define the training data and the number of steps to forecast
 #     X = df["Close"].values[:-1].reshape(-1, 1)
 #     y = df["Close"].values[1:].reshape(-1, 1)
